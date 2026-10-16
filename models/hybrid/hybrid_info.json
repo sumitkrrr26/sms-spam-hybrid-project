@@ -1,0 +1,27 @@
+{
+  "model_name": "BERT + Word2Vec/BiLSTM + 3 GCN + feature fusion + self-attention",
+  "optimizer": "project GSOWOA implementation",
+  "selected_learning_rate": 0.0001532941739118528,
+  "selected_dropout": 0.13767093915505982,
+  "selected_threshold": 0.737811175818378,
+  "validation_spam_f1": 0.9568627450980393,
+  "validation_spam_precision": 0.9606299212598425,
+  "metrics": {
+    "accuracy": 0.9864341085271318,
+    "spam_precision": 0.9453125,
+    "spam_recall": 0.9453125,
+    "spam_f1": 0.9453125,
+    "macro_f1": 0.9687845685840708,
+    "roc_auc": 0.9979863799778761,
+    "pr_auc": 0.989843744458134
+  },
+  "samples": {
+    "total": 5160,
+    "fit": 3096,
+    "validation": 1032,
+    "test": 1032
+  },
+  "search_candidates_evaluated": 2,
+  "device": "cpu",
+  "freeze_bert": true
+}

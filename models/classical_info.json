@@ -1,0 +1,8 @@
+{
+  "selected_model": "Linear SVM",
+  "test_accuracy": 0.9844961240310077,
+  "test_spam_precision": 0.9516129032258065,
+  "test_spam_recall": 0.921875,
+  "test_spam_f1": 0.9365079365079365,
+  "test_weighted_f1": 0.984390189842215
+}
